@@ -1,0 +1,60 @@
+h1{
+    background-color: #61e8f1;
+    padding: 3rem;
+    color:  #e69dea;
+    text-align: center;
+    text-size-adjust: larger;
+}
+#aintro {
+    background-color: #ee60f6;
+}
+#mainy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.whichone {
+    background-color: #04cbd9 ;
+    border-radius: 5px;
+    padding: 5px;
+    border-width: 5%;
+}
+#info { 
+padding: 100px;
+margin-right: auto;
+
+}
+#graphic {
+    color: black;
+    align-content: center;
+   max-width: 900Px;
+   max-height: 600px;
+   box-shadow:10px 0 16px 4px black;
+   text-shadow:3px 0 0 gray ;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 10px;
+}
+
+#buttonz {
+    display: block;
+    margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 20px;
+}
+
+.aintro {
+    background-color: #97bf04;
+}
+@media screen and (max-width: 720px) {
+    #mainy {
+        display: flex;
+  align-items: center; 
+  text-align: center;
+  flex-direction: column;
+  padding: 5px;
+    }
+}
